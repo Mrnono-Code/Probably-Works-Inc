@@ -1,1 +1,102 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title> My Photography</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen">
+
+<header class="text-center py-10">
+    <h1 class="text-5xl font-bold text-purple-500"> My Photography</h1>
+<p class="text-gray-400 mt-3"> Some of my favorite photos I've taken</p>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/*make 4 equal collumns */
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+/*responsive layout (adjusts the amount of columns*/
+@media screen and (max-width: 800px){
+    .column{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+} 
+    /*makes the columns stack if a small device*/
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+</style>
+
+<div class="row">
+    <div class="column">
+        <img src="image1.webp">
+        <img src="image2.webp">
+        <img src="image3.webp">
+
+    </div>
+    <div class="column">
+        <img src="image4.webp">
+        <img src="image5.webp">
+        <img src="image6.webp">
+
+    </div>
+    <div class="column">
+        <img src="image1.webp">
+        <img src="image2.webp">
+        <img src="image3.webp">
+
+    </div>
+    <div class="column">
+        <img src="image4.webp">
+        <img src="image5.webp">
+        <img src="image6.webp">
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
