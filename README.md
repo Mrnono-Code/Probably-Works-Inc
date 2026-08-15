@@ -5,3 +5,6 @@ A little corner of the internet for projects, experiments, photography, and othe
 Built with HTML, CSS, JavaScript, and probably questionable decisions.
 
 **I mean, the code probably works ¯\_(ツ)_/¯**
+Currently includes
+- A Random tech joke generator
+- A place for some of my photography with a gallery that resizes based on browser window size(this amazed me when I made it)
