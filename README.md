@@ -4,4 +4,4 @@ A little corner of the internet for projects, experiments, photography, and othe
 
 Built with HTML, CSS, JavaScript, and probably questionable decisions.
 
-**I mean, the code probably works ¯_(ツ)_/¯**
+**I mean, the code probably works ¯\_(ツ)_/¯**
