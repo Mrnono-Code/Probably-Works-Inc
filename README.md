@@ -1,1 +1,7 @@
-Im making this website for hack club stardance! But im also making it for myself overall.
+# Probably Works
+
+A little corner of the internet for projects, experiments, photography, and other random stuff I feel like making.
+
+Built with HTML, CSS, JavaScript, and probably questionable decisions.
+
+**I mean, the code probably works ¯_(ツ)_/¯**
