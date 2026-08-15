@@ -8,3 +8,8 @@ Built with HTML, CSS, JavaScript, and probably questionable decisions.
 Currently includes
 - A Random tech joke generator
 - A place for some of my photography with a gallery that resizes based on browser window size(this amazed me when I made it)
+
+
+Credits
+-------
+- W3schools.com (They made the Resizeing Gallery) [https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_img_gallery]
